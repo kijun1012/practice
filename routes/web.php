@@ -31,7 +31,7 @@ Route::get('user/{id}','UserController@show');
 
 
 Route::resource('user.post','PostController');
-
+    
 
 //컨트롤러 계층에따
 //namespace App\Http\Controllers\Admin;
